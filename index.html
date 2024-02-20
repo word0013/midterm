@@ -3,33 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Maia Worden's Mid-term</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Vesper+Libre:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <header>
-    <a href="index.html"><img src="Images/pitchfork-logo.svg" alt="pitchfork logo"></a>
+    <a href="index.html"><img id="logo" src="Images/pitchfork-logo.svg" alt="pitchfork logo"></a>
 </header>
 
 <main>
     <article>
 
-    <h2>News</h2>
+    <h2 class="news">News</h2>
 
     <h1>Rock Hall 2024: Oasis, Sinéad O’Connor, Sade, Mariah Carey, and More Nominated for Induction</h1>
 
-    <h2>A Tribe Called Quest, Eric B. & Rakim, Ozzy Osbourne, Cher, Mary J. Blige, and others are also in the running for 2024 Induction</h2>
+    <p class="sub">A Tribe Called Quest, Eric B. & Rakim, Ozzy Osbourne, Cher, Mary J. Blige, and others are also in the running for 2024 Induction</p>
 
-    <p>By Matthew Strauss</p>
-    <p> <time datetime="2024-02-10">February 10, 2024</time></p>
+    <p id="auth" class="author"> By Matthew Strauss</p>
+    <time id="time" class="date" datetime="2024-02-10">February 10, 2024</time>
 
 
     <figure>
-        <img src="/Images/rock-hall-of-fame-2024.webp" alt="Nominees for the 2024 Rock and Roll Hallf of fame" width="100%">
+        <img class="nomineespicture" src="/Images/rock-hall-of-fame-2024.webp" alt="Nominees for the 2024 Rock and Roll Hallf of fame">
         <figcaption>Graphic courtesy of Rock & Roll Hall of Fame Foundation and Alison Brod Marketing + Communications</figcaption>
     </figure>
 
@@ -49,7 +50,7 @@
     <h2>Rock & Roll Hall of Fame 2024 Nominees</h2>
  <div>
 
-    <ul>
+    <ul class="nomlist" id="list">
         <li>A Tribe Called Quest</li>
         <li>Cher</li>
         <li>Dave Matthews Band</li>
@@ -70,13 +71,15 @@
 </div>
 
 
+    
+
+<p> Visit Pitchfork for <a href="https://pitchfork.com/news/rock-hall-2024-oasis-sinead-oconnor-sade-mariah-carey-nominated-for-induction/"> original article.</a></p>
     </article>
-
-<a href="https://pitchfork.com/news/rock-hall-2024-oasis-sinead-oconnor-sade-mariah-carey-nominated-for-induction/">Visit Pitchfork for original article.</a>
-
 </main>
 
-<footer>&copy; Pitchfork 2024</footer>
+<footer>
+    <p><small>&copy; Pitchfork 2024</small></p>
+</footer>
 
 
     
